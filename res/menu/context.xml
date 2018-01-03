@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+		android:id="@+id/item_save"
+		android:icon="@android:drawable/ic_menu_save"
+		android:title="@string/item_save">
+	</item>
+    <item
+        android:id="@+id/item_edit"
+        android:icon="@android:drawable/ic_menu_edit"
+		android:title="@string/item_edit">
+	</item>
+	<item
+		android:id="@+id/item_delete"
+		android:icon="@android:drawable/ic_menu_delete"
+		android:title="@string/item_delete">
+	</item>
+	<item
+        android:id="@+id/item_close"
+        android:title="@string/item_close">
+    </item>
+</menu>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android" >
+	<CheckBoxPreference
+	    android:key="pref_gen_list"
+	    android:title="@string/pref_checkBoxTitle"
+	    android:summaryOff="@string/pref_descroff"
+		android:summaryOn="@string/pref_descron"
+	    android:defaultValue="false" />
+	<EditTextPreference
+        android:key="pref_listTemplate"
+        android:title="@string/pref_listTemplate_title"
+        android:summary="@string/pref_listTemplate_title_summary"
+        android:dialogTitle="@string/pref_listTemplate_title_dtitle"
+        android:hint="@string/pref_listTemplate_hint"
+        android:dependency="pref_gen_list"
+        android:defaultValue="list.txt" />
+	<ListPreference
+        android:key="pref_theme"
+        android:summary="@string/pref_theme_title_summary"
+        android:title="@string/pref_theme_title"
+        android:dialogTitle="@string/pref_theme_title_dtitle"
+        android:entries="@array/pref_theme_entries"
+        android:entryValues="@array/pref_theme_values"
+        android:defaultValue="1" />
+</PreferenceScreen>

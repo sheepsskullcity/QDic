@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+    
+<android.support.v7.widget.Toolbar 
+	android:id="@+id/ma_toolbar"
+	android:layout_width="match_parent"
+	android:layout_height="?attr/actionBarSize"
+	android:background="?attr/colorPrimary"
+	android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+	app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <Button
+        android:id="@+id/start_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="onclickStart"
+        android:text="@string/startBtn" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal" >
+    <EditText
+        android:id="@+id/dic_path"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:hint="@string/dic_path_hint"
+        android:ems="10"
+        android:inputType="textNoSuggestions" />
+
+    <EditText
+        android:id="@+id/book_path"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:hint="@string/book_path_hint"
+        android:ems="10"
+        android:inputType="textNoSuggestions" />
+</LinearLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp" >
+
+    <Button
+        android:id="@+id/file_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="onclickFiles"
+        android:text="@string/filesBtn" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true" />
+</RelativeLayout>
+
+</LinearLayout>
+</LinearLayout>

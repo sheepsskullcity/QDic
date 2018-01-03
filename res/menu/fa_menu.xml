@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.qtproject.qdic.FilesActivity" >
+
+    <item
+        android:id="@+id/item_menu_action_mode"
+        android:title="@string/item_menu_action_mode"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/item_menu_close"
+        android:title="@string/item_close"
+        app:showAsAction="never"/>
+
+</menu>
