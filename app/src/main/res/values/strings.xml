@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QDic</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="files_dicpath_append">dic ></string>
+    <string name="files_bookpath_append">book></string>
+    <string name="files_empty">Empty folder</string>
+    
+    <string name="item_close">CLOSE</string>
+	<string name="item_edit">EDIT NAME</string>
+	<string name="item_delete">DELETE</string>
+	<string name="item_save">SAVE PATH</string>
+	<string name="item_menu_action_mode">SELECT</string>
+	
+	<string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="startBtn">Start</string>
+    <string name="stopBtn">Stop</string>
+    <string name="filesBtn">Files</string>
+	
+	<string name="confirm_removing">Confirm removing</string>
+	<string name="removing_info">Delete file</string>
+	<string name="confirm_rename">Confirm rename</string>
+	<string name="rename_info">Rename file</string>
+	
+	<string name="file_error">Error: no such file !</string>
+    <string name="dir_error">Error: no such dir !</string>
+    <string name="file_notreadable_error">Error: file not readable !</string>
+    <string name="file_notwritable_error">Error: file not writable !</string>
+    <string name="dir_notwritable_error">Error: dir not writable !</string>
+    
+    <string name="pref_checkBoxTitle">List</string>
+    <string name="pref_descroff">list of used rules - off.</string>
+	<string name="pref_descron">list of used rules - on.</string>
+	
+	<string name="pref_listTemplate_title">List template</string>
+    <string name="pref_listTemplate_title_summary">Filename template for list file.</string>
+	<string name="pref_listTemplate_title_dtitle">Enter filename</string>
+	<string name="pref_listTemplate_hint">Enter list template</string>
+	
+	<string name="pref_theme_title">Theme</string>
+	<string name="pref_theme_title_dtitle">Choose theme</string>
+	<string name="pref_theme_title_summary">Application theme.</string>
+	<string-array name="pref_theme_entries">
+		<item>Dark</item>
+		<item>Light</item>
+	</string-array>
+	<string-array name="pref_theme_values">
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+	
+	<string name="output_filename">Output template</string>
+	<string name="output_filename_hint">Enter output template</string>
+	
+	<string name="dic_path_hint">dic filename</string>
+	<string name="book_path_hint">book filename</string>
+	
+	<string name="ticker_text">working</string>
+    <string name="notification_title">QDic</string>
+    <string name="notification_message">Working.</string>
+    <string name="error_notification_title">Error</string>
+    <string name="final_notification_title">Success</string>
+    <string name="final_notification_text">Process finished.</string>
+    <string name="final_notification_rulestext">rules used</string>
+    <string name="final_notification_timestext">times.</string>
+    
+    <string name="dic_error">Dic error.</string>
+    <string name="book_error">Book error.</string>
+    <string name="clear_error">Clear error.</string>
+    <string name="default_error">Error.</string>
+    
+    <string name="out_name_chars">Output name illegal chars</string>
+    <string name="new_bad_chars">New filename illegal chars</string>
+    <string name="list_bad_chars">"List template illegal chars"</string>
+    <string name="file_already_exist">file already exist!</string>
+    
+    <string name="final_toast_msg">QDic task done</string>
+    <string name="final_toast_cancelmsg">QDic task canceled</string>
+
+    <string name="permission_read_write">QDic read/write permission granted</string>
+    <string name="permission_fail">QDic read/write permission fail</string>
+    <string name="foreground_service">Foreground service QDicService.java</string>
+    <string name="foreground_service_desc">Foreground-Service</string>
+
+</resources>
